@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="sampleTest" parallel="false">
+
+    <test name="RunAllTests" preserve-order="true" verbose="2">
+       <classes>
+           <class name="tests.AssetGroupTests"></class>
+           <class name="tests.ContractorTests"></class>
+           <class name="tests.E2E"></class>
+       </classes>
+    </test>
+</suite>

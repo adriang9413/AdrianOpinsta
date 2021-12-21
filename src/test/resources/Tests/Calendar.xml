@@ -1,0 +1,57 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Calendar" parallel="false">
+
+<!--	<test name="Defect Reports Dependencies" verbose="2">-->
+<!--		<classes>-->
+<!--			<class name="tests.AssetGroupTests"/>-->
+<!--			<class name="tests.AssetTests"/>-->
+<!--			<class name="tests.ProblemTests"/>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Defect Reports Smoke">-->
+<!--		<classes>-->
+<!--			<class name="tests.DefectReportTests">-->
+<!--				<methods>-->
+<!--					<include name="SAM19_createElements"/>-->
+<!--					<include name="SAM22_createReport"/>-->
+<!--				</methods>-->
+<!--			</class>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+<!--	<test name="Forms Dependencies" preserve-order="true">-->
+<!--		<classes>-->
+<!--			<class name="tests.GuidanceTests"/>-->
+<!--			<class name="tests.FormCategoriesInspectionsTests"/>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+	<test name="Forms Smoke">
+		<classes>
+			<class name="tests.FormParts">
+				<methods>
+					<include name="SAM266"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Calendar Smoke">
+		<classes>
+			<class name="tests.CalendarWorkOrderTests">
+				<methods>
+					<include name="SAM478_addWorkOrder"/>
+					<include name="SAM479_editWorkOrder"/>
+				</methods>
+			</class>
+			<class name="tests.CalendarFormTests">
+				<methods>
+					<include name="SAM648_addForm"/>
+					<include name="SAM651_editForm"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

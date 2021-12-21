@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Calendar Smoke"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="64.638">
+    <properties></properties>
+
+
+
+            <testcase
+                name="SAM479_editWorkOrder"
+                time="37.282"
+                classname="tests.CalendarWorkOrderTests">
+            </testcase>
+            <testcase
+                name="SAM478_addWorkOrder"
+                time="27.356"
+                classname="tests.CalendarWorkOrderTests">
+            </testcase>
+</testsuite>

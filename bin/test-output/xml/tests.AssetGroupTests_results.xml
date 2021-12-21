@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OpinstaSAM"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="14.798">
+    <properties></properties>
+
+
+
+            <testcase
+                name="NegativeSAM9"
+                time="4.689"
+                classname="tests.AssetGroupTests">
+            </testcase>
+            <testcase
+                name="PositiveSAM6"
+                time="5.038"
+                classname="tests.AssetGroupTests">
+            </testcase>
+            <testcase
+                name="PositiveSAM9"
+                time="5.071"
+                classname="tests.AssetGroupTests">
+            </testcase>
+</testsuite>

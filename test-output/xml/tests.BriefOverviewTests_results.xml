@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Brief Smoke"
+           tests="5"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="106.807">
+    <properties></properties>
+
+            <testcase
+                name="SAM611_editStandardBrief"
+                time="42.375"
+                classname="tests.BriefOverviewTests">
+
+            <failure type="org.openqa.selenium.TimeoutException" message="Expected condition failed: waiting for element to be clickable: By.id: comm_details-popover (tried for 10 second(s) with 500 milliseconds interval)">
+                <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: comm_details-popover (tried for 10 second(s) with 500 milliseconds interval)
+                org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)utils.BaseClass.wait_for_id_elem_to_be_clickable(BaseClass.java:159)stepObjects.BriefOverviewStepObject.editBrief(BriefOverviewStepObject.java:66)tests.BriefOverviewTests.SAM611_editStandardBrief(BriefOverviewTests.java:43)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)org.testng.internal.Invoker.invokeMethod(Invoker.java:583)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)org.testng.TestRunner.privateRun(TestRunner.java:648)org.testng.TestRunner.run(TestRunner.java:505)org.testng.SuiteRunner.runTest(SuiteRunner.java:455)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)org.testng.SuiteRunner.run(SuiteRunner.java:364)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)org.testng.TestNG.runSuitesLocally(TestNG.java:1137)org.testng.TestNG.runSuites(TestNG.java:1049)org.testng.TestNG.run(TestNG.java:1017)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+                    Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#comm_details\-popover"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.1.9', ip: '2a02:2f0e:d20f:4400:5183:1aa4:5cb5:370%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /var/folders/9c/pv63wt997_7...}, goog:chromeOptions: {debuggerAddress: localhost:64277}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c85ac7342c1fbac8bddc4588d182d44
+*** Element info: {Using=id, value=comm_details-popover}
+                    java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)org.openqa.selenium.By$ById.findElement(By.java:188)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)utils.BaseClass.wait_for_id_elem_to_be_clickable(BaseClass.java:159)stepObjects.BriefOverviewStepObject.editBrief(BriefOverviewStepObject.java:66)tests.BriefOverviewTests.SAM611_editStandardBrief(BriefOverviewTests.java:43)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)org.testng.internal.Invoker.invokeMethod(Invoker.java:583)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)org.testng.TestRunner.privateRun(TestRunner.java:648)org.testng.TestRunner.run(TestRunner.java:505)org.testng.SuiteRunner.runTest(SuiteRunner.java:455)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)org.testng.SuiteRunner.run(SuiteRunner.java:364)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)org.testng.TestNG.runSuitesLocally(TestNG.java:1137)org.testng.TestNG.runSuites(TestNG.java:1049)org.testng.TestNG.run(TestNG.java:1017)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+                ]]>
+            </failure>
+    </testcase>
+
+
+            <testcase
+                name="SAM900_assignToBrief"
+                time="12.885"
+                classname="tests.BriefOverviewTests">
+            </testcase>
+            <testcase
+                name="SAM608_createStandardBrief"
+                time="18.404"
+                classname="tests.BriefOverviewTests">
+            </testcase>
+            <testcase
+                name="SAM1034_rateBrief"
+                time="19.845"
+                classname="tests.BriefOverviewTests">
+            </testcase>
+            <testcase
+                name="SAM1115_removeFromBrief"
+                time="13.298"
+                classname="tests.BriefOverviewTests">
+            </testcase>
+</testsuite>

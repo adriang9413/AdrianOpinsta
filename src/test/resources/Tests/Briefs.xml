@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Briefs" parallel="false">
+
+	<test name="Brief Dependencies" preserve-order="true">
+		<classes>
+			<class name="tests.BriefGroupTests"/>
+			<class name="tests.BriefCategoryTests"/>
+		</classes>
+	</test>
+
+	<test name="Brief Smoke">
+		<classes>
+			<class name="tests.BriefOverviewTests"/>
+		</classes>
+	</test>
+
+</suite>

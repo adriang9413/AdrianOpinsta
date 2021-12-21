@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Defect Reports Dependencies"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.653">
+    <properties></properties>
+
+
+
+            <testcase
+                name="SAM9_addAssetGroup"
+                time="5.653"
+                classname="tests.AssetGroupTests">
+            </testcase>
+</testsuite>

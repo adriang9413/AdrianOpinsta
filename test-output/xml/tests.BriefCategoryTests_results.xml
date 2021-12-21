@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Brief Dependencies"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.566">
+    <properties></properties>
+
+
+
+            <testcase
+                name="SAM606_addCategories"
+                time="17.566"
+                classname="tests.BriefCategoryTests">
+            </testcase>
+</testsuite>

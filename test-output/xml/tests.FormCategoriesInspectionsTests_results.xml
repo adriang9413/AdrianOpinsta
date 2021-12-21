@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OpinstaSAM"
+           tests="3"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="10.260">
+    <properties></properties>
+
+            <testcase
+                name="takeSS"
+                time="0.030"
+                classname="tests.FormCategoriesInspectionsTests">
+
+            <failure type="org.openqa.selenium.NoSuchWindowException" message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.93)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;192.168.1.11&apos;, ip: &apos;2a02:2f0e:dc12:a000:a144:d4e5:d2db:bf90%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /var/folders/9c/pv63wt997_7...}, goog:chromeOptions: {debuggerAddress: localhost:51804}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66ac6725916eb7479786fd0f6b15121f">
+                <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.1.11', ip: '2a02:2f0e:dc12:a000:a144:d4e5:d2db:bf90%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /var/folders/9c/pv63wt997_7...}, goog:chromeOptions: {debuggerAddress: localhost:51804}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66ac6725916eb7479786fd0f6b15121f
+                java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)utils.Setup.takeSnapShot(Setup.java:86)utils.Setup.takeSS(Setup.java:45)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)org.testng.internal.Invoker.invokeMethod(Invoker.java:646)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)org.testng.TestRunner.privateRun(TestRunner.java:648)org.testng.TestRunner.run(TestRunner.java:505)org.testng.SuiteRunner.runTest(SuiteRunner.java:455)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)org.testng.SuiteRunner.run(SuiteRunner.java:364)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)org.testng.TestNG.runSuitesLocally(TestNG.java:1137)org.testng.TestNG.runSuites(TestNG.java:1049)org.testng.TestNG.run(TestNG.java:1017)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="SAM297_editForm"
+                time="1.149"
+                classname="tests.FormCategoriesInspectionsTests">
+
+            <failure type="org.openqa.selenium.WebDriverException" message="Remote browser did not respond to getCurrentUrl
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;192.168.1.11&apos;, ip: &apos;2a02:2f0e:dc12:a000:a144:d4e5:d2db:bf90%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;17&apos;
+Driver info: driver.version: RemoteWebDriver">
+                <![CDATA[org.openqa.selenium.WebDriverException: Remote browser did not respond to getCurrentUrl
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.1.11', ip: '2a02:2f0e:dc12:a000:a144:d4e5:d2db:bf90%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '17'
+Driver info: driver.version: RemoteWebDriver
+                org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:289)stepObjects.LoginStepObject.logInApp(LoginStepObject.java:21)tests.FormCategoriesInspectionsTests.SAM297_editForm(FormCategoriesInspectionsTests.java:45)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)org.testng.internal.Invoker.invokeMethod(Invoker.java:583)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)org.testng.TestRunner.privateRun(TestRunner.java:648)org.testng.TestRunner.run(TestRunner.java:505)org.testng.SuiteRunner.runTest(SuiteRunner.java:455)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)org.testng.SuiteRunner.run(SuiteRunner.java:364)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)org.testng.TestNG.runSuitesLocally(TestNG.java:1137)org.testng.TestNG.runSuites(TestNG.java:1049)org.testng.TestNG.run(TestNG.java:1017)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </failure>
+    </testcase>
+
+
+            <testcase
+                name="SAM661_createFormWithGuidance"
+                time="9.081"
+                classname="tests.FormCategoriesInspectionsTests">
+            </testcase>
+</testsuite>

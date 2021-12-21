@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Forms Dependencies"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.617">
+    <properties></properties>
+
+
+
+            <testcase
+                name="SAM661"
+                time="4.617"
+                classname="tests.FormCategoriesWithGuidanceTests">
+            </testcase>
+</testsuite>

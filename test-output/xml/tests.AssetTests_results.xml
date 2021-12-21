@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OpinstaSAM"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="48.827">
+    <properties></properties>
+
+            <testcase
+                name="SAM12_createNewAsset"
+                time="48.827"
+                classname="tests.AssetTests">
+
+            <failure type="org.openqa.selenium.TimeoutException" message="Expected condition failed: waiting for element to be clickable: By.id: above--alert (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;192.168.1.5&apos;, ip: &apos;2a02:2f0a:430f:7700:1d7a:c3c4:495b:71cd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /var/folders/9c/pv63wt997_7...}, goog:chromeOptions: {debuggerAddress: localhost:57654}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a333a1c99c3f4ee68e23e8422d042f8">
+                <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: above--alert (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.1.5', ip: '2a02:2f0a:430f:7700:1d7a:c3c4:495b:71cd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /var/folders/9c/pv63wt997_7...}, goog:chromeOptions: {debuggerAddress: localhost:57654}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a333a1c99c3f4ee68e23e8422d042f8
+                org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)utils.BaseClass.wait_for_id_elem_to_be_clickable(BaseClass.java:159)stepObjects.AssetStepObject.verifyAssetSuccessfullySavedMessage(AssetStepObject.java:92)tests.AssetTests.SAM12_createNewAsset(AssetTests.java:18)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)org.testng.internal.Invoker.invokeMethod(Invoker.java:583)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)org.testng.TestRunner.privateRun(TestRunner.java:648)org.testng.TestRunner.run(TestRunner.java:505)org.testng.SuiteRunner.runTest(SuiteRunner.java:455)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)org.testng.SuiteRunner.run(SuiteRunner.java:364)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)org.testng.TestNG.runSuitesLocally(TestNG.java:1137)org.testng.TestNG.runSuites(TestNG.java:1049)org.testng.TestNG.run(TestNG.java:1017)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </failure>
+    </testcase>
+
+
+</testsuite>

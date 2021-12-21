@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Forms" parallel="false">
+
+<!--	<test name="Forms Dependencies" preserve-order="true">-->
+<!--		<classes>-->
+<!--			<class name="tests.GuidanceTests">-->
+<!--				<methods>-->
+<!--					<include name="SAM446_createNewGuidance"/>-->
+<!--				</methods>-->
+<!--			</class>-->
+<!--			<class name="tests.FormCategoriesInspectionsTests"/>-->
+<!--&lt;!&ndash;		<class name="tests.ManageCreateUsersTests"/>&ndash;&gt;-->
+<!--		</classes>-->
+<!--	</test>-->
+
+	<test name="Forms Smoke">
+		<classes>
+			<class name="tests.FormParts"/>
+		</classes>
+	</test>
+
+</suite>

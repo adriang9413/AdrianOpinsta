@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Defect Reports" parallel="false">
+
+	<test name="Defect Reports Dependencies" preserve-order="true" verbose="2">
+		<classes>
+			<class name="tests.AssetGroupTests"/>
+			<class name="tests.AssetTests"/>
+			<class name="tests.ProblemTests"/>
+		</classes>
+	</test>
+
+	<test name="Defect Reports Smoke">
+		<classes>
+			<class name="tests.DefectReportTests"/>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Forms Smoke"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="146.255">
+    <properties></properties>
+
+
+
+            <testcase
+                name="SAM390_updateFormStatus"
+                time="9.671"
+                classname="tests.FormParts">
+            </testcase>
+            <testcase
+                name="SAM408_editAssignUser"
+                time="9.764"
+                classname="tests.FormParts">
+            </testcase>
+            <testcase
+                name="SAM392_editFormFields"
+                time="8.985"
+                classname="tests.FormParts">
+            </testcase>
+            <testcase
+                name="SAM266"
+                time="117.835"
+                classname="tests.FormParts">
+            </testcase>
+</testsuite>
